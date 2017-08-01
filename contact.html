@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,20 +22,27 @@
   </style>
 </head>
 <body>
-
+<?php include 'contact.php';?>
   <div class="container-fluid">
     <center><h1><font color="grey">Yongding Sun's Blog</font></h1></center>
     <center><img src="csuchico.gif" width="180px;"></center>
     <br>
     <br>
       <ul class="nav nav-tabs nav-justified">
-            <li role="presentation"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="resume.html">Resume</a></li>
-            <li role="presentation"><a href="personal.html">Personal project</a></li>
-            <li role="presentation"><a href="contact.html">Contact me</a></li>
+        <li role="presentation"><a class="lead" href="index.html">Home</a></li>
+        <li role="presentation"><a class="lead" href="resume.html">Resume</a></li>
+        <li role="presentation"><a class="lead" href="personal.html">Personal</a></li>
+        <li role="presentation"><a class="lead" href="contact.html">Contact me</a></li>
       </ul>
       <br>
       <br>
+      <p class="text-center"><strong>Feel free to say hi.</strong></p>
+      <center><form action="mail.php" method="POST">
+  <p>Name</p> <input type="text" name="name">
+  <p>Email</p> <input type="text" name="email">
+  <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+  <input type="submit" value="Send"><input type="reset" value="Clear">
+</form><center>
 </div>
 
 </body>
