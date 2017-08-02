@@ -37,25 +37,50 @@
       <br>
       <br>
       <p class="text-center"><strong>Feel free to say hi.</strong></p>
-      <form class="form" id="contactform" action="//formspree.io/ysun5@mail.csuchico.edu" method="POST">
-   <fieldset class="field">
-   <input class="input" type="text" name="name" placeholder="Name" id="name" required>
-   <label class="label" for="name"><span class="label-content">Your name</span></label>
-   </fieldset>
-   <fieldset class="field">
-   <input class="input" type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
-   <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
-   </fieldset>
-   <fieldset class="field">
-   <textarea class="input" name="message" rows="1" placeholder="Message" id="message" required></textarea>
-   <label class="label" for="message"><span class="label-content">Your message</span></label>
-   </fieldset>
-   <input class="hidden" type="text" name="_gotcha" style="display:none">
-   <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
-   <fieldset class="field">
-   <input class="button submit" type="submit" value="Send">
-   </fieldset>
- </form>
+      <div class="container">
+  	<div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="well well-sm">
+            <form class="form-horizontal" action="//formspree.io/ysun5@mail.csuchico.edu" method="post">
+            <fieldset>
+              <legend class="text-center">Contact us</legend>
+
+              <!-- Name input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="name">Name</label>
+                <div class="col-md-9">
+                  <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                </div>
+              </div>
+
+              <!-- Email input-->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                <div class="col-md-9">
+                  <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                </div>
+              </div>
+
+              <!-- Message body -->
+              <div class="form-group">
+                <label class="col-md-3 control-label" for="message">Your message</label>
+                <div class="col-md-9">
+                  <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                </div>
+              </div>
+
+              <!-- Form actions -->
+              <div class="form-group">
+                <div class="col-md-12 text-right">
+                  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+              </div>
+            </fieldset>
+            </form>
+          </div>
+        </div>
+  	</div>
+  </div>
 </div>
 
 </body>
