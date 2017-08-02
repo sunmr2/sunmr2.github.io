@@ -37,12 +37,13 @@
       <br>
       <br>
       <p class="text-center"><strong>Feel free to say hi.</strong></p>
-      <center><form action="mail.php" method="get"  id="spaceing" data-abide>
-  <p>Name</p> <input type="text" name="name">
-  <p>Email</p> <input type="text" name="email">
-  <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-  <input type="submit" value="Send"><input type="reset" value="Clear">
-</form><center>
+      <form action="https://getsimpleform.com/messages?form_api_token=89c55e30aa3681dca7b98e223b2216e0" method="post">
+      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+      <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+      <!-- all your input fields here.... -->
+      <input type='text' name='test' />
+      <input type='submit' value='Test form' />
+    </form>
 </div>
 
 </body>
