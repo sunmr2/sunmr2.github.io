@@ -125,7 +125,7 @@ html {
   background-position: center;
 }
 .wrapper .column:nth-child(1) .inner {
-  background-image: url('../img/4.jpg');
+  background-image: url('../img/g.jpg');
 }
 .wrapper .column:nth-child(2) .inner {
   background-image: url('../img/5.jpg');
@@ -155,7 +155,7 @@ html {
   background-image: url('../img/d.jpg');
 }
 .wrapper .column:nth-child(11) .inner {
-  background-image: url('../img/g.jpg');
+  background-image: url('../img/4.jpg');
 }
 .wrapper .column:nth-child(12) .inner {
   background-image: url('../img/c.jpg');
