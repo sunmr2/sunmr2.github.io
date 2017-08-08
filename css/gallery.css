@@ -155,10 +155,10 @@ html {
   background-image: url('../img/d.jpg');
 }
 .wrapper .column:nth-child(11) .inner {
-  background-image: url('../img/c.jpg');
+  background-image: url('../img/g.jpg');
 }
 .wrapper .column:nth-child(12) .inner {
-  background-image: url('../img/g.jpg');
+  background-image: url('../img/c.jpg');
 }
 .wrapper .column:nth-child(13) .inner {
   background-image: url('');
